@@ -1,0 +1,71 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 237px;
+  border-radius: 18px;
+}
+
+.product .image {
+  display: block;
+  margin: 0 auto;
+  width: 52%;
+  height: 200px;
+}
+
+.product h2 {
+  margin: 10px 0;
+}
+
+.product h5 {
+  color: #555;
+  margin: 5px 0;
+}
+
+.product p {
+  margin: 10px 0;
+}
+.yes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.got {
+  font-weight: 800;
+}
+.got1 {
+  font-weight: 400;
+}
+.yes {
+  margin-left: 6px;
+}
+.align {
+  display: flex;
+  justify-content: space-between;
+}
+
+.solve {
+  position: relative;
+  bottom: 12px;
+  left: 25px;
+}
+
+.solve1 {
+  position: relative;
+  top: 12px;
+  right: 3%;
+}
+
+.bold {
+  font-weight: 800;
+  font-size: 18px;
+}
